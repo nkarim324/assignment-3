@@ -1,0 +1,23 @@
+li a{
+    text-decoration:none ;
+
+}
+ul li{
+
+    margin:10px 20px;
+}
+
+
+.carousel-item::before{
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #000;
+    opacity: 0.6;
+
+}
+
